@@ -95,12 +95,13 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'Ghozy Nouval Satya Prasaja'
+            Padding(
+              padding: EdgeInsets.only(bottom: 10),
+              child: Text('Ghozy Nouval Satya Prasaja'),
             ),
             Text(
               '2031710102'
-            ),
+            )
           ],
         ),
       ),
